@@ -1,0 +1,72 @@
+classes:
+	Learning: Learn a new skill by right clicking a set tool used for that class. You can only have one of each type of class at a time,
+		You may switch skills, but it starts you off at level one of that skill. Leveling up takes time and improves the efficiency
+		with wich you can use that skill.
+	Nessecity:
+		LumberJack:
+			break: logs, leaves, vines
+			place: saplings
+			use: bonemeal 
+		Miner:
+			break: dirt, gravel, stone, coal, iron, gold, diamond, redstone, emerald
+			place: planks, torches
+			use: nightvision potion
+		Farmer:
+			break: weat, potatoes, carrots, sugarcane, melons, pumpkins
+			place: seeds, potatoes, carrots, sugarcane, melon seeds, pumpkin seeds
+			use: hoe(tilling), bonemeal, breeding, killing animals.
+
+	Luxury:
+		Blacksmith:
+			break: Anvil
+			make: pick, shovel, hoe, axe, sword, bow, arrow, armor
+			place: Anvil
+			use: Anvil, bottle o' enchanting
+			services: repairing
+		PotionMaster:
+			break: potion stand, netherwart, 
+			make: tnt, potions
+			place: potioni stand, netherwart,
+			use: all potions
+			services: experience extract potion(make bottle's o' enchanting by removing player experience)
+		Wizard:
+			break: enchanting table
+			place: enchanting table
+			use: enchanting table
+			services: enchant tools/weapons, make super-item.
+		Alpha(town leader/designer):
+			break: 
+			place:
+			use:
+			service: allocate land, set tax
+
+	War:
+		Warrior:
+			use: Sword, Axe, Iron Armor, Diamond armor, strength potion
+		Archer:
+			use: Bow, leather armor, speed potion
+		Rouge:
+			use: throwing knives, vines? TNT? invisibility potion.
+
+
+Economy:
+	Shops: maybe some kind of chest that only the owner can place items in, and will charge others to remove the items.
+	Services: Something the shopowner must do. Cost's shop owner money, but owner might just pass off the cost to the customer.
+
+Holds(forts/communities):
+	Creation: Communities can be started by killing the Ender Dragon and collecting it's egg. Eggs will act as the interface for starting
+		and maintaining a Hold.
+	Leader: called Alpha (for now maybe), the leader designs the town layout. They can allocate plots to citizens, and propose extensions
+		which will be paid for by the whole community if approved with a 2/3 majority.
+	Income: Mob drops can be cashed in for $$ at one of the Hold's eggs. Each egg the Hold holds (see what I did there?) will increase the
+		overall value of drops, but either farmable drops will not be purchased, or the price will vary based on how commonly a drop
+		is cashed in. Maybe if one player always does bones bones will become worthless to him until he turns in as many zombie flesh
+		and string and whatnot. Could still be exploitable though so we'll see. Maybe the community earns it's tax from these cash-ins,
+		instead of voting on project taxes. Maybe they just vote on the tax rates.
+	Gates: Holds will have signs on the front gate that grant access. Citizens of the Hold can get in for free with full access. Non
+		citizens can pay a tax (set by the hold leadership) to enter for trading purposes, or they can choose to attack the hold 
+		to attempt to capture an egg.
+	Warfare: Battles are set in and around the hold that is being attacked. Attackers may set their spawns anywhere outside of the walls,
+		and get a set number of lives to steal the egg or take small objectives to earn more lives before they are forced to retreat.
+		The number of lives of the attackers is based on the "value" of the Hold under attack, and the strength of it's current defenses.
+		
