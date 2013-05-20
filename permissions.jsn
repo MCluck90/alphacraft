@@ -1,0 +1,48 @@
+_data = {
+    classes:{
+        farmer: {
+            blocks: {
+                create: ['dirt', 'grass', 'tree'],
+                destroy: ['grass', 'wheat']
+            },
+            tools: ['hoe'],
+            interact: []
+        },
+        lumberjack: {
+        },
+        miner: {
+        },
+
+        blacksmith: {
+        },
+        wizard: {
+        },
+        potionMaster: {
+        },
+
+        cityPlanner: {
+        },
+        redstoneEngineer: {
+        },
+
+        archer: {
+        },
+        warrior: {
+        },
+        rouge: {
+        }
+    },
+
+    players:{
+        Der_Jakal: {
+            miner: 1,
+            redstoneEngineer: 1,
+            rouge: 1
+        },
+        Neurotrace: {
+            blacksmith: 1,
+            lumberjack: 1,
+            archer: 1
+        }
+    }
+}
