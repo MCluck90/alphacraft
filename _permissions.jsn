@@ -1,0 +1,72 @@
+_data = {
+    classes:{
+	default: {
+	},
+	farmer: {
+		DIRT: ['place' , 'break'],
+		GRASS: ['break'],
+		WATER??: ['place'],
+		BROWN_MUSHROOM: ['break', 'place'],
+		RED_MUSHROOM: ['break', 'place'],
+		CACTUS: ['break', 'place'],
+		SUGAR_CANE_BLOCK: ['break', 'place'],
+		PUMPKIN: ['break'],
+		MELON_BLOCK: ['break'],
+		PUMPKIN_STEM: ['break'],
+		MELON_STEM: ['break'],
+		COCOA: ['break', 'place'],
+		CARROT: ['place', 'break'],
+		POTATO: ['place', 'break'],
+		STONE_HOE: ['interact'],
+		IRON_HOE: ['interact'],
+		DIAMOND_HOE: ['interact'],
+		GOLD_HOE: ['interact'],
+		SEEDS: ['place'],
+		CROPS: ['break'],
+		WHEAT: ['interact'],
+		BUCKET: ['interact'],
+		WATER_BUCKET: ['place'],
+		EGG: ['interact'],
+		FISHING_ROD: ['interact'],
+		SHEARS: ['interact'],
+		PUMPKIN_SEEDS: ['place'],
+		MELON_SEEDS: ['place'],
+		CARROT_ITEM: ['place'],
+		POTATO_ITEM: ['place'],
+			
+	},
+        lumberjack: {
+        },
+        miner: {
+        },
+
+        blacksmith: {
+        },
+        wizard: {
+        },
+        potionMaster: {
+        },
+        redstoneEngineer: {
+        },
+
+        archer: {
+        },
+        warrior: {
+        },
+        rouge: {
+        }
+    },
+
+    players:{
+        Der_Jakal: {
+            miner: 1,
+            redstoneEngineer: 1,
+            rouge: 1
+        },
+        Neurotrace: {
+            blacksmith: 1,
+            lumberjack: 1,
+            archer: 1
+        }
+    }
+}
