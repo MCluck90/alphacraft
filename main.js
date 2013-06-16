@@ -1,3 +1,4 @@
+ready(function(){
 function refresh() {
     server.reload();
     load('js-plugins/alphacraft/main.js');
@@ -15,6 +16,8 @@ var MobBlaster = (function() {
     game.init = function() {
 
     };
+
+    game.getBlock
 
     game.createChickens = function(player, count) {
         var world = self.world;
@@ -77,3 +80,4 @@ var MobBlaster = (function() {
 })();
 
 MobBlaster.init();
+})
